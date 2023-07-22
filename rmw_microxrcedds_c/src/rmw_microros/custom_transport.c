@@ -20,7 +20,7 @@
 #include "../rmw_microros_internal/types.h"
 #include "./rmw_microros_internal/error_handling_internal.h"
 
-rmw_uxrce_transport_params_t rmw_uxrce_transport_default_params;
+rmw_uxrce_transport_params_t rmw_uxrce_transport_default_params = {};
 
 rmw_ret_t rmw_uros_set_custom_transport(
   bool framing,
